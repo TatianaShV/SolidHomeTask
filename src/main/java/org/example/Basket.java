@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class Basket {
     protected Purchase[] purchases;
-    Map<String, Integer> prices;
+    protected Map<String, Integer> prices;
 
     public Basket(Map<String, Integer> prices) {
         this.prices = prices;
